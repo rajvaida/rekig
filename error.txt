@@ -1,0 +1,56 @@
+/opt/bitnami/apps/rekig/faces/test3.jpg
+/opt/bitnami/apps/rekig/faces/your-faces-here.jpg
+{ AccessDeniedException: User: arn:aws:sts::804676749863:assumed-role/AmazonLightsailInstanceRole/i-0a51b87d3d161addc is not authorized to perform: rekognition:CreateCollection on resource: arn:aws:rekognition:us-east-1:804676749863:collection/ArcherFaces
+    at Request.extractError (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/protocol/json.js:48:27)
+    at Request.callListeners (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:105:20)
+    at Request.emit (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:77:10)
+    at Request.emit (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:683:14)
+    at Request.transition (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:22:10)
+    at AcceptorStateMachine.runTo (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/state_machine.js:14:12)
+    at /opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/state_machine.js:26:10
+    at Request.<anonymous> (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:38:9)
+    at Request.<anonymous> (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:685:12)
+    at Request.callListeners (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:115:18)
+  message: 'User: arn:aws:sts::804676749863:assumed-role/AmazonLightsailInstanceRole/i-0a51b87d3d161addc is not authorized to perform: rekognition:CreateCollection on resource: arn:aws:rekognition:us-east-1:804676749863:collection/ArcherFaces',
+  code: 'AccessDeniedException',
+  time: 2017-08-01T20:21:57.339Z,
+  requestId: '11048d6e-76f7-11e7-8e13-13cb46168bdf',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 75.02357007521086 } 'AccessDeniedException: User: arn:aws:sts::804676749863:assumed-role/AmazonLightsailInstanceRole/i-0a51b87d3d161addc is not authorized to perform: rekognition:CreateCollection on resource: arn:aws:rekognition:us-east-1:804676749863:collection/ArcherFaces\n    at Request.extractError (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/protocol/json.js:48:27)\n    at Request.callListeners (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:105:20)\n    at Request.emit (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:77:10)\n    at Request.emit (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:683:14)\n    at Request.transition (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:22:10)\n    at AcceptorStateMachine.runTo (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/state_machine.js:14:12)\n    at /opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/state_machine.js:26:10\n    at Request.<anonymous> (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:38:9)\n    at Request.<anonymous> (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:685:12)\n    at Request.callListeners (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:115:18)'
+{ AccessDeniedException: User: arn:aws:sts::804676749863:assumed-role/AmazonLightsailInstanceRole/i-0a51b87d3d161addc is not authorized to perform: rekognition:IndexFaces on resource: arn:aws:rekognition:us-east-1:804676749863:collection/ArcherFaces/person/*
+    at Request.extractError (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/protocol/json.js:48:27)
+    at Request.callListeners (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:105:20)
+    at Request.emit (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:77:10)
+    at Request.emit (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:683:14)
+    at Request.transition (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:22:10)
+    at AcceptorStateMachine.runTo (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/state_machine.js:14:12)
+    at /opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/state_machine.js:26:10
+    at Request.<anonymous> (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:38:9)
+    at Request.<anonymous> (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:685:12)
+    at Request.callListeners (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:115:18)
+  message: 'User: arn:aws:sts::804676749863:assumed-role/AmazonLightsailInstanceRole/i-0a51b87d3d161addc is not authorized to perform: rekognition:IndexFaces on resource: arn:aws:rekognition:us-east-1:804676749863:collection/ArcherFaces/person/*',
+  code: 'AccessDeniedException',
+  time: 2017-08-01T20:21:57.553Z,
+  requestId: '11166748-76f7-11e7-9a39-71989deb5f90',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 54.27100825205571 } 'AccessDeniedException: User: arn:aws:sts::804676749863:assumed-role/AmazonLightsailInstanceRole/i-0a51b87d3d161addc is not authorized to perform: rekognition:IndexFaces on resource: arn:aws:rekognition:us-east-1:804676749863:collection/ArcherFaces/person/*\n    at Request.extractError (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/protocol/json.js:48:27)\n    at Request.callListeners (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:105:20)\n    at Request.emit (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:77:10)\n    at Request.emit (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:683:14)\n    at Request.transition (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:22:10)\n    at AcceptorStateMachine.runTo (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/state_machine.js:14:12)\n    at /opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/state_machine.js:26:10\n    at Request.<anonymous> (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:38:9)\n    at Request.<anonymous> (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:685:12)\n    at Request.callListeners (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:115:18)'
+{ AccessDeniedException: User: arn:aws:sts::804676749863:assumed-role/AmazonLightsailInstanceRole/i-0a51b87d3d161addc is not authorized to perform: rekognition:IndexFaces on resource: arn:aws:rekognition:us-east-1:804676749863:collection/ArcherFaces/person/*
+    at Request.extractError (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/protocol/json.js:48:27)
+    at Request.callListeners (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:105:20)
+    at Request.emit (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:77:10)
+    at Request.emit (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:683:14)
+    at Request.transition (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:22:10)
+    at AcceptorStateMachine.runTo (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/state_machine.js:14:12)
+    at /opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/state_machine.js:26:10
+    at Request.<anonymous> (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:38:9)
+    at Request.<anonymous> (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:685:12)
+    at Request.callListeners (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:115:18)
+  message: 'User: arn:aws:sts::804676749863:assumed-role/AmazonLightsailInstanceRole/i-0a51b87d3d161addc is not authorized to perform: rekognition:IndexFaces on resource: arn:aws:rekognition:us-east-1:804676749863:collection/ArcherFaces/person/*',
+  code: 'AccessDeniedException',
+  time: 2017-08-01T20:21:57.619Z,
+  requestId: '110d6697-76f7-11e7-9499-5b3298c52749',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 38.487736534005855 } 'AccessDeniedException: User: arn:aws:sts::804676749863:assumed-role/AmazonLightsailInstanceRole/i-0a51b87d3d161addc is not authorized to perform: rekognition:IndexFaces on resource: arn:aws:rekognition:us-east-1:804676749863:collection/ArcherFaces/person/*\n    at Request.extractError (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/protocol/json.js:48:27)\n    at Request.callListeners (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:105:20)\n    at Request.emit (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:77:10)\n    at Request.emit (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:683:14)\n    at Request.transition (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:22:10)\n    at AcceptorStateMachine.runTo (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/state_machine.js:14:12)\n    at /opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/state_machine.js:26:10\n    at Request.<anonymous> (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:38:9)\n    at Request.<anonymous> (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/request.js:685:12)\n    at Request.callListeners (/opt/bitnami/apps/rekig/node_modules/aws-sdk/lib/sequential_executor.js:115:18)'
